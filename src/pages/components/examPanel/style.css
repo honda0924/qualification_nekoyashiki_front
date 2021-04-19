@@ -1,0 +1,33 @@
+.exam-panel__wrapper {
+  margin: 0 auto;
+  padding-top: 5vh;
+  width: 35vw;
+  display: flex;
+  justify-content: space-between;
+}
+.exam-panel__element {
+  height: 10vh;
+  width: 15vw;
+  border-radius: 10px;
+  background-color: teal;
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+}
+.exam-panel__element__title {
+  padding-top: 1vh;
+  width: 90%;
+  height: 50%;
+  margin: 0 auto;
+  border-bottom: 1px solid white;
+}
+.exam-panel__element__actions {
+  padding-top: 0.5vh;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  font-size: x-large;
+}
+.exam-panel__element__actions__icon {
+  padding: 0 1vw;
+}
